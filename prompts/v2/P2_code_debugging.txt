@@ -1,0 +1,5 @@
+I’m debugging the Bhoomi Sanket ML workflow in Google Colab. I’ll provide the failing code cell, full traceback and any relevant dataset details.
+
+Please identify the failing line, explain the likely cause and check relevant issues such as column names, data types, missing values, target encoding, array shapes, train/test feature alignment, preprocessing and XGBoost parameters. Give the smallest safe correction and a quick check to verify it.
+
+Use my actual variable and column names. If the traceback is incomplete, ask for the missing information. Do not change unrelated working code.

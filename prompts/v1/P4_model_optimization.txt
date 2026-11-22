@@ -1,0 +1,3 @@
+I want to improve the Bhoomi Sanket XGBoost classifier. I’ll share its current settings and evaluation results.
+
+Please suggest which model settings or training steps I should investigate first. Explain why each change might help and provide example Python code where useful. Do not promise that a change will improve the model before it is tested.

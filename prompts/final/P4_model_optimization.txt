@@ -1,0 +1,14 @@
+Help me plan evidence-based improvements to the Bhoomi Sanket XGBoost classifier. I’ll provide the current hyperparameters, training and validation results, class distribution and metric priorities.
+
+First assess whether the supplied evidence points to underfitting, overfitting, class imbalance, threshold choice or another issue. If it is not enough to tell, state what additional result is needed.
+
+Then:
+- Select only relevant parameters to tune, such as n_estimators, max_depth, learning_rate, min_child_weight, subsample, colsample_bytree, gamma, reg_alpha and reg_lambda.
+- Explain the expected trade-off for each proposed change.
+- Suggest a manageable RandomizedSearchCV, GridSearchCV or other validation approach and explain why it fits.
+- Keep the held-out test set out of hyperparameter selection.
+- Recommend metrics aligned with detecting delayed projects.
+- Provide code that matches the supplied variable names and library setup.
+- End with an experiment plan containing baseline, change tested, validation result and decision.
+
+Do not invent an optimal parameter set or claim a performance gain before the experiment is run.

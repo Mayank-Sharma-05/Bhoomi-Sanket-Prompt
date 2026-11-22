@@ -1,0 +1,11 @@
+Review the supplied evaluation of the Bhoomi Sanket XGBoost classifier, which is intended to identify land-acquisition projects that may face delays.
+
+Use only the metrics and context I provide. First confirm which target class represents a delayed project and how the metrics were calculated, if known. Then:
+- Explain accuracy, precision, recall and F1-score in practical terms.
+- Interpret the confusion matrix, including false negatives and false positives.
+- Discuss the practical difference between missing a delayed project and flagging a project that is not delayed, without inventing business costs.
+- Explain ROC-AUC only if the score and calculation details are supplied.
+- Identify strengths and weaknesses supported by the evidence.
+- Recommend focused follow-up checks, such as reviewing misclassified records, class balance, threshold choice or validation strategy.
+
+Distinguish measured results from possible explanations. Do not claim that one test result proves generalisation. Finish with a concise evidence-based assessment.

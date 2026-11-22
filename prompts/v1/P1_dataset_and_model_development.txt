@@ -1,0 +1,3 @@
+I’m working on Bhoomi Sanket (SIH26017), a project for early detection of land-acquisition delays. The project uses an XGBoost classifier. I’m working in Google Colab with Python, pandas, scikit-learn and XGBoost.
+
+I’ll share the dataset or notebook details. Help me inspect the data, prepare it for model training and build the XGBoost workflow. Explain each step and give code I can run in Colab. Use the column names I provide, and ask me if the target column or class labels are unclear. Don’t assume values or invent results.

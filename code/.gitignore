@@ -1,0 +1,156 @@
+# ==============================================================================
+# Bhoomi Sanket – Git Ignore Specification
+# Problem Statement: SIH26017 (Land Acquisition Delay Early Detection)
+# Milestone 2: Prompt Engineering Mini Project
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Environment Variables, Secrets & Sensitive Credentials
+# NEVER commit credentials, private tokens, or live database connection strings.
+# ------------------------------------------------------------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+!*.env.example
+*.pem
+*.key
+*.cert
+*.crt
+id_rsa
+id_ecdsa
+id_ed25519
+
+# ------------------------------------------------------------------------------
+# 2. Node.js & Next.js Dependencies & Build Outputs
+# Dependencies are reinstalled via `npm install` from package.json / package-lock.json.
+# ------------------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-store/
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Next.js build cache & static distribution outputs
+.next/
+out/
+build/
+dist/
+.vercel
+*.tsbuildinfo
+
+# ------------------------------------------------------------------------------
+# 3. Python Virtual Environments, Bytecode & Caches
+# Dependencies are reinstalled via `pip install -r requirements.txt`.
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Testing & Linting caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.ruff_cache/
+.mypy_cache/
+nosetests.xml
+coverage.xml
+
+# Jupyter / Colab notebooks checkpoints
+.ipynb_checkpoints/
+
+# ------------------------------------------------------------------------------
+# 4. Local Databases, SQLite Files & Migrations Cache
+# Raw local databases should not be uploaded; schemas are in schema.sql & prisma.
+# ------------------------------------------------------------------------------
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+prisma/*.db
+prisma/dev.db
+
+# ------------------------------------------------------------------------------
+# 5. OS Generated Artifacts & Metadata
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+desktop.ini
+
+# ------------------------------------------------------------------------------
+# 6. IDE & Code Editor Files
+# ------------------------------------------------------------------------------
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*.swn
+*.bak
+
+# ------------------------------------------------------------------------------
+# 7. Archives, Backup Directories & Logs
+# ------------------------------------------------------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+_backup*/
+backup/
+logs/
+*.log

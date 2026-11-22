@@ -1,0 +1,10 @@
+I’m evaluating the Bhoomi Sanket XGBoost classifier. I’ll provide the test-set metrics and, if available, the classification report and confusion matrix.
+
+Explain:
+- What accuracy, precision, recall and F1-score mean for this project.
+- Which class is being treated as the positive class.
+- What false positives and false negatives mean for delay detection.
+- Whether the metrics suggest a precision/recall trade-off.
+- What should be investigated next.
+
+Use only the values I share. If the positive class or averaging method is unclear, ask me. Do not judge the model by accuracy alone.

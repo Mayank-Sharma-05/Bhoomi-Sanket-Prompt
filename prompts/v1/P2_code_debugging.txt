@@ -1,0 +1,3 @@
+I’m working on the Bhoomi Sanket XGBoost project and have an issue in my Python code. I’ll share the code and the error message.
+
+Please explain what is causing the error and show me how to fix it. Keep the fix focused and avoid rewriting parts of the notebook that are unrelated to the problem.

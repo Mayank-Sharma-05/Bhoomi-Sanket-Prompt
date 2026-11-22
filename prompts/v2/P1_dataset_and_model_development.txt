@@ -1,0 +1,12 @@
+I’m preparing the Bhoomi Sanket dataset for its XGBoost land-acquisition delay classifier in Google Colab. The project dataset was recorded as 36,746 rows and 47 columns before cleaning, and 18,444 rows and 44 columns after cleaning.
+
+Please help me review the dataset and prepare the training workflow:
+1. Check the dataset shape, data types, missing values, duplicates and target distribution.
+2. Confirm the target column and the meaning of its labels.
+3. Review numerical and categorical features.
+4. Recommend appropriate preprocessing and encoding.
+5. Check for identifiers, irrelevant columns and possible target leakage.
+6. Prepare a suitable training/test split and explain the choice.
+7. Train an XGBoost classifier and provide evaluation code.
+
+Use Python, pandas, scikit-learn and XGBoost. Give code in separate Colab cells. Keep actual column names unchanged. If the target or any detail is missing, ask me rather than guessing. Do not invent model scores.

@@ -1,0 +1,13 @@
+I’m developing Bhoomi Sanket (SIH26017), an XGBoost-based classifier for early detection of land-acquisition delays. The recorded dataset size was 36,746 rows × 47 columns before cleaning and 18,444 rows × 44 columns after cleaning. I use Google Colab with Python, pandas, scikit-learn and XGBoost.
+
+Help me create a reproducible training notebook. Work through these stages:
+- Inspect the supplied dataset and report its shape, data types, missing values, duplicates and target-class distribution.
+- Confirm the target column and the meaning of each label before preparing supervised training.
+- Review features for relevance, identifiers and possible target leakage, especially fields that may only be known after a project is delayed.
+- Recommend preprocessing for numerical and categorical fields. Explain the reason for each step.
+- Split the data appropriately and explain whether stratification is suitable.
+- Fit preprocessing on training data only where needed to prevent leakage.
+- Train an XGBoost classifier using clearly stated parameters.
+- Provide evaluation code for accuracy, precision, recall, F1-score, confusion matrix and ROC-AUC where applicable.
+
+Give runnable code in small Colab cells. Preserve the real column names and variable names I provide. Ask a focused question if information is missing. Do not invent target labels, statistics, hyperparameters or evaluation scores. Do not say training succeeded until I share the execution output. Finish with checks I should perform before accepting the model.

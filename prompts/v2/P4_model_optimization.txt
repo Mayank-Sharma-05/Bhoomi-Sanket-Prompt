@@ -1,0 +1,5 @@
+I’m tuning the XGBoost classifier used in Bhoomi Sanket. I’ll provide the current hyperparameters, dataset details and validation results.
+
+Review relevant settings such as n_estimators, max_depth, learning_rate, subsample, colsample_bytree and regularization. Explain the likely trade-offs and suggest a manageable validation or cross-validation strategy. Keep the held-out test set separate until final evaluation. Recommend metrics that matter for the delayed-project class, including recall, precision and F1-score.
+
+Do not assume overfitting or underfitting unless the results support it. Do not report an improvement until I run the experiment.
